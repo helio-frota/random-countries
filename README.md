@@ -17,32 +17,19 @@ Open a new terminal and start kafka broker:
 ./bin/kafka-server-start.sh config/server.properties
 ```
 
-Create a new topic:
+Open a new terminal and create a topic:
 ```console
 ./bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --topic countries
 ```
 
-### Using docker compose instead
-
-```console
-docker-compose -f docker-compose.yml up
-```
-
-## Running the Node.js example:
+## Running the Node.js example
 
 ### Using kafkajs
 
-Open a new terminal and run the example:
+Open a new terminal and run:
 
 ```console
-cd using-kafkajs
-npm it
+cd kafkajs-example
+npm install
+npm run producer
 ```
-
-### Using the foo
-
-```console
-cd using-foo
-npm it
-```
-
