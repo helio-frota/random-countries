@@ -1,0 +1,14 @@
+{
+  "name": "kafkajs-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "kafkajs": "^1.15.0"
+  }
+}
