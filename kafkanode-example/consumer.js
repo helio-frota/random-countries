@@ -6,5 +6,9 @@ const consumer = new Consumer(client, [{ topic: 'countries', partition: 0 }], {
 })
 
 consumer.on('message', function (message) {
-  console.log(message)
+  console.log({
+    partition: message.partition,
+    offset: message.offset,
+    value: message.value,
+  })
 })

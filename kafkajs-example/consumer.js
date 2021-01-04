@@ -12,7 +12,7 @@ const run = async () => {
   await consumer.subscribe({ topic: 'countries', fromBeginning: true })
 
   await consumer.run({
-    eachMessage: async ({ topic, partition, message }) => {
+    eachMessage: async ({ partition, message }) => {
       console.log({
         partition,
         offset: message.offset,
