@@ -1,13 +1,11 @@
 {
-  "name": "kafkajs-example",
+  "name": "kafkanode-example",
   "version": "1.0.0",
   "scripts": {
-    "producer": "node producer.js",
     "consumer": "node consumer.js"
   },
   "license": "MIT",
   "dependencies": {
-    "chance": "^1.1.7",
-    "kafkajs": "^1.15.0"
+    "kafka-node": "^5.0.0"
   }
 }
