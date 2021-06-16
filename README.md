@@ -1,5 +1,6 @@
 # Basic example with Node.js and kafka
 
+![CI](https://github.com/helio-frota/random-countries/workflows/ci/badge.svg)
 ### Download and start Apache Kafka:
 
 ```console
