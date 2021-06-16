@@ -6,4 +6,4 @@
 #: Version     : 0.0.1
 #: Description : Stops kafka in 'zookeeper-less' mode
 
-./bin/kafka-server-stop.sh
+./kafka_2.12-2.8.0/bin/kafka-server-stop.sh

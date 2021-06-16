@@ -35,7 +35,7 @@ sed -i "/num.io.threads=/ s/num.io.threads=8/num.io.threads=1/" ./config/kraft/s
 ID=$(./bin/kafka-storage.sh random-uuid)
 ./bin/kafka-storage.sh format -t $ID -c ./config/kraft/server.properties
 ./bin/kafka-server-start.sh -daemon ./config/kraft/server.properties
-
+cd ..
 sleep 1
 
 waitFor
